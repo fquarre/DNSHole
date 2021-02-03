@@ -10,7 +10,8 @@
 @@||config.edge.skype.com^$important
 @@||support.eero.com^$important
 @@||eero.zendesk.com^$important
-#GenPop Blocks
+####################################
+# GenPop Blocks
 ||eh0pgyii556lyw2f03q.5znn2su-8q7o082t1sr.com^$important
 ||cxx1w6c3deo5pl4ginvulgx2g.xvg1so5ksxrd-grob6ffr65fo.com^$important
 ||5w6jlzr1xvos9ce.qmmt3fd0aza1n3.com^$important
@@ -49,14 +50,18 @@
 ||*.edgesuite.net^$important
 ||*.goskope.com^$important
 # ^__End of Randoms
-#Braze outreach
+####################################
+# Braze outreach
 ||sdk.*.braze.com^$important #sdk.iad-02.braze.com, sdk.iad-01.braze.com
-#Singular outreach
+####################################
+# Singular outreach
 ||*.singular.net^$important #{s2s,sdk-api-v1}.singular.net^$important
-#FB outreach
+####################################
+# FB outreach
 ||scontent*.xx.fbcdn.net #scontent{-lga3-1,-ort2-2,}.xx.fbcdn.net^$important
 ||app-analytics.snapchat.com^$important
-#APPL outreach
+####################################
+# APPL outreach
 #To check: .+comscoreresearch.+
 #||init-p01md.apple.com^$important >> Unclear if we need to block or not
 #||init.ess.apple.com^$important >> This might be related to iMessage services
@@ -67,9 +72,11 @@
 @@||osxapps.itunes.apple.com^$important #tentative, used by apple/macos to download apps updates
 #@@||gspe79-ssl.ls.apple.com^$client='192.168.7.241'
 #@@||mediaservices.cdn-apple.com^$client='192.168.7.246'
-#Synology outreach
+####################################
+# Synology outreach
 ||global.quickconnect.to^$important
-#AMZ outreach
+####################################
+# AMZ outreach
 ||*.amazon-adsystem.com^$important #{mads,aax-us-east,c,s}.amazon-adsystem.com
 ||mads.amazon.com^$important
 ||device-metrics-us-2.amazon.com^$important
@@ -78,7 +85,6 @@
 ||aax-us-iad.amazon.com^$important
 ####################################
 # MSFT outreach
-#
 @@||www.msftconnecttest.com^$important
 @@||login.microsoftonline.com^$important
 @@||*.teams.microsoft.com^$important
@@ -133,7 +139,6 @@
 @@||*.gvt1.com^$important # Target to update Chrome
 ####################################
 # Samsung / SmartTV outreach
-#
 ||noticecdn.samsungcloudsolution.com^$important
 ||log-config.samsungacr.com^$important
 ||cdn.samsungcloudsolution.com^$important
@@ -141,9 +146,11 @@
 ||images.amcnetworks.com^$important
 ||prod-ripcut-delivery.disney-plus.net^$important
 ||secureclock.playready.microsoft.com^$important
-#Comcast outreach
+####################################
+# Comcast outreach
 ||metricscollector.lp.xcal.tv^$important
-#Trello outreach
+####################################
+# Trello outreach
 @@||https://trello-*.s3.amazonaws.com/^$important
 @@||*.trello.com^$important
 @@||*.trello.services^$important
