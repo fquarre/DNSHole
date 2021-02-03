@@ -1,0 +1,155 @@
+#Confirmed to Unblock
+@@||deloitteunityprodapimg.azure-api.net^$important
+@@||deloitte.d2.sc.omtrdc.net^$important
+@@||*.deloitte.com^$important
+@@||*.thehustle.co^$important
+@@||*.spotify.com^$important
+#Experimental to un/block
+@@||init-p01md.apple.com^$client='192.168.7.249' #Might block iWatch from synching with Peloton
+@@||init.ess.apple.com^$client='192.168.7.249' #Might block iWatch from synching with Peloton
+@@||config.edge.skype.com^$important
+@@||support.eero.com^$important
+@@||eero.zendesk.com^$important
+#GenPop Blocks
+||eh0pgyii556lyw2f03q.5znn2su-8q7o082t1sr.com^$important
+||cxx1w6c3deo5pl4ginvulgx2g.xvg1so5ksxrd-grob6ffr65fo.com^$important
+||5w6jlzr1xvos9ce.qmmt3fd0aza1n3.com^$important
+||app-measurement.com^$important
+||alb.reddit.com^$important
+||api.mixpanel.com^$important
+||api.segment.io^$important
+||api2.amplitude.com^$important
+||api*.branch.io^$important
+||assets.adobedtm.com^$important
+||c.go-mpulse.net^$important
+||cdn-settings.segment.com^$important
+||cdn.optimizely.com^$important
+||cdn.walkme.com^$important
+||config2.mparticle.com^$important
+||conversions.appsflyer.com^$important
+||dpm.demdex.net^$important
+||e12872de91aaca7a39095801bdf5f168d87912fa.cws.conviva.com^$important
+||gate.hockeyapp.net^$important
+||ib.adnxs.com^$important
+||inapps.appsflyer.com^$important
+||mediation.adnxs.com^$important
+||mobile-collector.newrelic.com^$important
+||js-agent.newrelic.com^$important
+||notify.bugsnag.com^$important
+||p.typekit.net^$important
+||radar.cedexis.com^$important
+||s0.2mdn.net^$important
+||sb.scorecardresearch.com^$important
+||secure.insightexpressai.com^$important
+||settings.crashlytics.com^$important
+||firebase-settings.crashlytics.com^$important
+||whatismyip.akamai.com^$important
+||ccc.hpeprint.com^$important
+||whois.arin.net^$important
+||*.edgesuite.net^$important
+||*.goskope.com^$important
+# ^__End of Randoms
+#Braze outreach
+||sdk.*.braze.com^$important #sdk.iad-02.braze.com, sdk.iad-01.braze.com
+#Singular outreach
+||*.singular.net^$important #{s2s,sdk-api-v1}.singular.net^$important
+#FB outreach
+||scontent*.xx.fbcdn.net #scontent{-lga3-1,-ort2-2,}.xx.fbcdn.net^$important
+||app-analytics.snapchat.com^$important
+#APPL outreach
+#To check: .+comscoreresearch.+
+#||init-p01md.apple.com^$important >> Unclear if we need to block or not
+#||init.ess.apple.com^$important >> This might be related to iMessage services
+||*.iadcontent.apple.com^$important
+||*.iadsdk.apple.com^$important
+@@||downloaddispatch.itunes.apple.com^$important #tentative, used by apple/macos to download apps updates
+@@||play.itunes.apple.com^$important #tentative, used by apple/macos to download apps updates
+@@||osxapps.itunes.apple.com^$important #tentative, used by apple/macos to download apps updates
+#@@||gspe79-ssl.ls.apple.com^$client='192.168.7.241'
+#@@||mediaservices.cdn-apple.com^$client='192.168.7.246'
+#Synology outreach
+||global.quickconnect.to^$important
+#AMZ outreach
+||*.amazon-adsystem.com^$important #{mads,aax-us-east,c,s}.amazon-adsystem.com
+||mads.amazon.com^$important
+||device-metrics-us-2.amazon.com^$important
+||fls-na.amazon.com^$important
+||aan.amazon.com^$important
+||aax-us-iad.amazon.com^$important
+####################################
+# MSFT outreach
+#
+@@||www.msftconnecttest.com^$important
+@@||login.microsoftonline.com^$important
+@@||*.teams.microsoft.com^$important
+@@||login.windows.net^$important
+# Skype / Teams
+@@||config.teams.trafficmanager.net^$important
+@@||api3.cc.skype.com^$important
+@@||api.flightproxy.teams.trafficmanager.net^$important
+@@||worldaz.tr.teams.trafficmanager.net^$important
+@@||presence.services.sfb.trafficmanager.net^$important
+||in.ng.msg.teams.microsoft.com^$important
+#||login.live.com^$important
+@@||login.microsoftonline.com^$important
+||g.live.com^$important
+||bat.bing.com^$important
+#||apac.presence.teams.microsoft.com^$important >> Blocks presence of members in teams and outlook
+#||emea.presence.teams.microsoft.com^$important >> Blocks presence of members in teams and outlook
+#||config.teams.microsoft.com^$important
+||ctldl.windowsupdate.com^$important
+||emea.ng.msg.teams.microsoft.com^$important
+||a.privatelink.msidentity.com^$important
+||westeurope-prod-3.notifications.teams.microsoft.com^$important
+||teams.events.data.microsoft.com^$important
+||v10c.events.data.microsoft.com^$important
+||self.events.data.microsoft.com^$important
+||settings-win.data.microsoft.com^$important
+||powerpoint.officeapps.live.com^$important
+||mobile.pipe.aria.microsoft.com^$important
+@@||*.aa-rt.sharepoint.com^$important
+@@||nexus.officeapps.live.com^$important #this seems to be used for login details in Mac // unclear
+@@||nexusrules.officeapps.live.com^$important #this seems to be used for login details in Mac
+@@||mobile.pipe.aria.microsoft.com^$client='192.168.4.21'
+####################################
+# GOOG outreach
+@@||fonts.gstatic.com^$important #used by many sites for font based icons / CSS / responsive design
+||securepubads.g.doubleclick.net^$important
+||pubads.g.doubleclick.net^$important
+||static.doubleclick.net^$important
+||stats.g.doubleclick.net^$important
+||ad.doubleclick.net^$important
+||googleads.g.doubleclick.net^$important
+||pagead2.googlesyndication.com^$important
+||gstaticadssl.l.google.com^$important
+||id.google.com^$important
+||ssl.google-analytics.com^$important
+||www.google-analytics.com^$important
+||firebaselogging-pa.googleapis.com^$important
+||adservice.google.com^$important
+||www.googletagmanager.com^$important
+||www.googletagservices.com^$important
+||youtubei.googleapis.com^$important
+@@||*.gvt1.com^$important # Target to update Chrome
+####################################
+# Samsung / SmartTV outreach
+#
+||noticecdn.samsungcloudsolution.com^$important
+||log-config.samsungacr.com^$important
+||cdn.samsungcloudsolution.com^$important
+||d2chemrnatmkp3.cloudfront.net^$important
+||images.amcnetworks.com^$important
+||prod-ripcut-delivery.disney-plus.net^$important
+||secureclock.playready.microsoft.com^$important
+#Comcast outreach
+||metricscollector.lp.xcal.tv^$important
+#Trello outreach
+@@||https://trello-*.s3.amazonaws.com/^$important
+@@||*.trello.com^$important
+@@||*.trello.services^$important
+@@||*.trellostatus.com^$important
+#!-- Rules added below are added from the UI
+@@||research.ark-invest.com^$important
+@@||cainbrothers.us11.list-manage.com^$important
+@@||bitly.com^$important
+@@||ic3.events.data.microsoft.com^$important
